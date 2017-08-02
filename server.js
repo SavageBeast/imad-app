@@ -72,7 +72,7 @@ var htmltemplate=
 </html>`;
 return htmltemplate;
 }
-var couter=0;    
+var coumter=0;    
 app.get('/counter', function (req, res){
     counter=counter+1;
     res.send(counter.toString());
